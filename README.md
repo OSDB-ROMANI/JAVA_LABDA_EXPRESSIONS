@@ -1,16 +1,16 @@
 # JAVA_LABDA_EXPRESSIONS
-L'idea è quella di implementare un metodo astratto direttamente al momento del suo utilizzo, al posto di implemetarlo in una classe e generare un oggetto.
+L'idea è quella di implementare un metodo astratto direttamente al momento del suo utilizzo, al posto di implementarlo in una classe e generare un oggetto.
 <h2>PROCEDIMENTO</h2>
 <li>REQUISITI</li>
 <ol>
   <li>Dobbiamo avere un'interfaccia</li>
   <li>L'interfaccia deve avere solo e solo un metodo</li>
   <li>E' buona norma utilizzare l'annotation @FunctionalInterface</li>
-  <li>L'intefaccia così costruita prende il nome di interfaccia funzionale</li>
+  <li>L'interfaccia così costruita prende il nome di interfaccia funzionale</li>
 </ol>
 <li>UTILIZZO</li>
 <ol>
-  <li>Possiamo utilizzare l'interfaccia e implementare il codice direttante alla bisogna</li>
+  <li>Possiamo utilizzare l'interfaccia e implementare il codice direttamente alla bisogna</li>
     <ul>
       <li>Definiamo un oggetto del tipo dell'interfaccia</li>
       <li>Implementiamo il metodo con un assegnamento =</li>
@@ -20,9 +20,9 @@ L'idea è quella di implementare un metodo astratto direttamente al momento del 
       <li>Inserisco tutte le righe di codice, se più di una utilizzo le { }</li>
       <li>Eseguo il metodo tramite nome oggetto . metodo</li>
     </ul>
-  <li>Possiamo creare un metodo che riceve in input un'oggetto del tipo dell'interfaccia</li>
+  <li>Possiamo creare un metodo che riceve in input un oggetto del tipo dell'interfaccia</li>
     <ul>
-      <li>Il metodo deve ricevare in input un'oggetto del tipo dell'interfaccia</li>
+      <li>Il metodo deve ricevare in input un oggetto del tipo dell'interfaccia</li>
       <li>Al fine dell'utilizzo della Lambda non è importante il contenuto del metodo</li>
       <li>E' possibile ridefinire il metodo creato esattamente come abbia fatto nel caso precedente</li>
       <li>Richiamiamo il metodo creato utilizzando il suo nome</li>
